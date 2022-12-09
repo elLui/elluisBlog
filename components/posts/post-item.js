@@ -1,18 +1,34 @@
 import Link from "next/link";
 import Image from "next/image";
+import styles from "./post-item.module.scss";
 
-export default function PostItem() {
+export default function PostItem (props) {
 
 
-    return(
-        <li>
+    const { title, image, excerpt, date, slug } = props;
+
+    const formattedDate = new Date (date).toLocaleDateString ('en-US', {
+        day: "numeric",
+        month: 'long',
+        year: "numeric",
+    })
+
+    const imagePath = `/images/posts/${ slug }/${ image }`;
+
+
+    return (
+        <li className={ styles.post }>
             <Link>
-                <div>
-                    <Image src={"./images/titan.png"} alt={'alternate'} height={300} width={300} />
-                </div>
-                <h3>title</h3>
-                <time>December 8th 2022</time>
-                <p>this is an excerpt from a very exciting blog post</p>
+
+                <a href="">
+                    <div className={ styles.image }>
+                        <Image src={ imagePath } alt={ 'alternate post image' } height={ 300 } width={ 200 }/>
+                    </div>
+                    <div className={ styles.content }></div>
+                    <h3>{ title }</h3>
+                    <time>{ formattedDate }</time>
+                    <p>{ excerpt }</p>
+                </a>
             </Link>
         </li>
     )
