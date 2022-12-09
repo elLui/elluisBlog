@@ -1,9 +1,9 @@
-import { Fragment } from "react";
+import styles from './logo.module.scss';
 
 export default function Logo() {
 
 
     return (
-        <Fragment></Fragment>
+        <div className={styles.logo}>blog elluis</div>
     )
 }

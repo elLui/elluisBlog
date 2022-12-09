@@ -1,0 +1,15 @@
+.logo {
+  text-transform: uppercase;
+  font-size: var(--size-5);
+  font-weight: 400;
+  font-family: "Grupo", sans-serif;
+  color: var(--color-grey-200);
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: var(--size-8);
+  }
+}
+
+/*# sourceMappingURL=logo.module.css.map */

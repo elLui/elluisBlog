@@ -1,5 +1,5 @@
-import { HiHome, HiUser, HiListBullet, HiBriefcase, HiChatBubbleLeftRight } from "react-icons/hi2";
-
+import { HiHome, HiUser, HiChatBubbleLeftRight } from "react-icons/hi2";
+// HiListBullet, HiBriefcase,
 export const nav_data = [
     {
         id: 0,
@@ -9,25 +9,25 @@ export const nav_data = [
     },
     {
         id: 1,
-        url: "/",
-        text: "about",
+        url: "/posts",
+        text: "posts",
         icon: <HiUser/>,
     },
-    {
-        id: 2,
-        url: "/",
-        text: "services",
-        icon: <HiListBullet/>,
-    },
-    {
-        id: 3,
-        url: "/",
-        text: "portfolio",
-        icon: <HiBriefcase/>,
-    },
+    // {
+    //     id: 2,
+    //     url: "/",
+    //     text: "services",
+    //     icon: <HiListBullet/>,
+    // },
+    // {
+    //     id: 3,
+    //     url: "/",
+    //     text: "portfolio",
+    //     icon: <HiBriefcase/>,
+    // },
     {
         id: 4,
-        url: "/",
+        url: "/contact",
         text: "contact",
         icon: <HiChatBubbleLeftRight/>,
 

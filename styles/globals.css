@@ -58,4 +58,8 @@ img, picture, svg, video {
   max-width: 100vw;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=globals.css.map */
