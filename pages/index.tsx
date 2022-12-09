@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Hero from '../components/hero/index'
 import styles from 'styles/home.module.scss';
 
 export default function Home() {
@@ -16,6 +16,7 @@ export default function Home() {
                     Bienvenido a el  <a href="#">blog delluis</a>
                 </h1>
 
+                <Hero/>
 
             </main>
 
