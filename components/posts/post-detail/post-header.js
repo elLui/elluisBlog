@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './post-header.module.scss';
 
-export default function (props) {
+export default function PostHeader(props) {
 
 
     const {title, image} = props;
