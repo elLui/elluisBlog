@@ -24,7 +24,7 @@ export default function PostItem (props) {
 
 
                     <div className={ styles.image }>
-                        <Image src={ imagePath } alt={ 'alternate post image' } height={ 225 } width={ 350}  layout={"responsive"} />
+                        <Image src={ imagePath } alt={ 'alternate post image' } height={300} width={300} layout={'responsive'}/>
                     </div>
                     <div className={ styles.content }></div>
                     <h3>{ title }</h3>
