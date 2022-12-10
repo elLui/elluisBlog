@@ -1,4 +1,6 @@
 import PostHeader from "./post-header";
+import styles from "./post-content.module.scss";
+import ReactMarkdown from "react-markdown";
 
 
 const DUMMY_POST = {
@@ -13,15 +15,16 @@ const DUMMY_POST = {
 }
 
 
-export default function () {
+export default function PostContent() {
 
     const imagePath = `/images/posts/${ DUMMY_POST.slug }/${ DUMMY_POST.image }`;
 
 
     return (
-        <article>
+        <article className={styles.content}>
             <PostHeader title={ DUMMY_POST.title } image={ imagePath }/>
-            { DUMMY_POST.content }
+            <ReactMarkdown>{ DUMMY_POST.content }</ReactMarkdown>
+
         </article>
     )
 }
