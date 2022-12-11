@@ -1,7 +1,7 @@
 ---
 title: 'this is my first markdown title'
 date: '2022-10-16'
-image: 'this-is-my-first-slug.png'
+image: this-is-my-first-slug.png
 excerpt: NextJS is a React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR.
 isFeatured: true
 ---
@@ -28,6 +28,6 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 
 ## File-based Routing
 
-![Create routes via your file + folder structure](nextjs-file-based-routing.png)
+![first slug image alt text goes here!!](this-is-my-first-slug.png)
 
 ... More content ...

@@ -8,11 +8,6 @@ export default function PostHeader(props) {
     const {title, image} = props;
 
 
-
-
-
-
-
     return (
         <header className={styles.header}>
             <h1>{title}</h1>
