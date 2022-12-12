@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text_el {
+  height: 100vh;
+  width: 100%;
+  stroke-dasharray: 705;
+  animation: 1s fillSvg linear;
+}
+@keyframes fillSvg {
+  0% {
+    stroke-dashoffset: 705;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#text_L {
+  height: 100vh;
+  width: 100%;
+  stroke-dasharray: 649;
+  animation: 1s fillSvg linear;
+}
+@keyframes fillSvg {
+  0% {
+    stroke-dashoffset: 649;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#text_uis {
+  height: 100vh;
+  width: 100%;
+  stroke-dasharray: 661;
+  animation: 1.3s fillSvg linear;
+}
+@keyframes fillSvg {
+  0% {
+    stroke-dashoffset: 661;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/*# sourceMappingURL=style.module.css.map */
