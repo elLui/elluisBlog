@@ -20,12 +20,11 @@ export default function MainNavigation () {
                 { nav_data.map ((link) => {
                     return (<li key={ link.id }>
                         <Link href={ link.url }>
-                            <span>{ link.icon }  </span>
+                            <span>{ link.icon }</span>
                             <span>{ link.text }</span>
                         </Link>
                     </li>)
                 }) }
-                <li></li>
             </ul>
         </nav>
 

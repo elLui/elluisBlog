@@ -1,5 +1,5 @@
-import { HiHome, HiUser, HiChatBubbleLeftRight } from "react-icons/hi2";
-// HiListBullet, HiBriefcase,
+import { HiHome, HiUser, HiChatBubbleLeftRight, HiListBullet } from "react-icons/hi2";
+
 export const nav_data = [
     {
         id: 0,
@@ -13,18 +13,18 @@ export const nav_data = [
         text: "posts",
         icon: <HiUser/>,
     },
-    // {
-    //     id: 2,
-    //     url: "/",
-    //     text: "services",
-    //     icon: <HiListBullet/>,
-    // },
-    // {
-    //     id: 3,
-    //     url: "/",
-    //     text: "portfolio",
-    //     icon: <HiBriefcase/>,
-    // },
+    {
+        id: 2,
+        url: "/",
+        text: "services",
+        icon: <HiListBullet/>,
+    },
+    {
+        id: 3,
+        url: "/",
+        text: "portfolio",
+        icon: <HiBriefcase/>,
+    },
     {
         id: 4,
         url: "/contact",
@@ -35,7 +35,8 @@ export const nav_data = [
 ]
 
 
-import { TbBrandTwitter, TbBrandInstagram, TbBrandTiktok, TbBrandFacebook, } from "react-icons/tb";
+import { TbBrandTwitter, TbBrandInstagram, TbBrandFacebook, TbBug, } from "react-icons/tb";
+import { HiBriefcase } from "react-icons/all";
 
 export const social = [
     {
@@ -51,7 +52,7 @@ export const social = [
     {
         id: 2,
         url: "#",
-        icon: <TbBrandTiktok/>,
+        icon: <TbBug/>,
     },
     {
         id: 3,
